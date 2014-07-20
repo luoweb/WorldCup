@@ -3,7 +3,7 @@
 //  WorldCup
 //
 //  Created by luweb on 14-6-14.
-//  Copyright (c) 2014年 luowb. All rights reserved.
+//  Copyright (c) 2014 luowb. All rights reserved.
 //
 
 import UIKit
@@ -14,12 +14,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                             
     var window: UIWindow?
 
+    
+
+    
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: NSDictionary?) -> Bool {
-        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+
+//        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
         // Override point for customization after application launch.
-        self.window!.backgroundColor = UIColor.whiteColor()
-        self.window!.makeKeyAndVisible()
+
+//        var mainViewController = MainViewController(nibName:nil,bundle:nil)
+//        var navigationViewController = UINavigationController(rootViewController: mainViewController)
+//        
+//        self.window!.makeKeyAndVisible()
+
         return true
     }
 
